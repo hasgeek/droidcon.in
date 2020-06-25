@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Droidcon India</title>
+  <link href="https://droidcon.in/"/>
+  <link rel="self" href="https://droidcon.in/feed"/>
+  <updated>2016-10-27T04:06:03.327074Z</updated>
+  <id>https://droidcon.in/</id>
+  <icon>https://droidcon.in/_themes/droidcon2012/img/icon.png</icon>
+  <author><name>Droidcon India</name></author>
+
+  
+  <entry>
+    <title type="text">What to expect at droidconIN 2016</title>
+    <id>https://droidcon.in/2016/what-to-expect-at-droidconin-2016</id>
+    <link href="https://droidcon.in/2016/what-to-expect-at-droidconin-2016"/>
+    <updated>2016-10-27T04:06:03.327074Z</updated>
+    <published>2016-10-26T07:19:11.220254Z</published>
+    <content type="html">
+      &lt;p&gt;droidconIN is India&#39;s largest Android conference, and part of a worldwide series of conferences focused on the Android ecosystem. This year will be the 6th edition, and will take place on &lt;strong&gt;November 10th-11th, 2016&lt;/strong&gt; at the MLR Convention Centre, JP Nagar, Bangalore.&lt;/p&gt;&lt;p&gt;In 2016, we are doubly-focused on core Android development, and the ecosystem of tools and frameworks around it.&lt;/p&gt;&lt;blockquote&gt;&lt;span class=&#34;markup--quote markup--pullquote-quote is-other&#34;&gt;Every year, the Android ecosystem moves to something new and cutting edge. At times, it can be difficult to stay on top of things and decide which technologies are worth investing in for you and your team.&lt;/span&gt;&lt;/blockquote&gt;&lt;img class=&#34;img space-one-bottom&#34; src=&#34;https://d262ilb51hltx0.cloudfront.net/max/1600/1*kfpggDQPXEOfhzpU-0rQpQ.jpeg&#34;&gt;&lt;p&gt;We have a handpicked selection of topics and speakers who we believe are best positioned to help you navigate this ecosystem.&lt;/p&gt;&lt;h4&gt;&lt;strong&gt;&lt;em&gt;How does Dropbox do Android development?&lt;/em&gt;&lt;/strong&gt;&lt;/h4&gt;&lt;p&gt;What kind of processes, tools, and styles do they follow to develop, test, and ship updates? &lt;a href=&#34;https://droidconin.talkfunnel.com/2016/20-android-development-at-dropbox&#34;&gt;Piotr is coming down to India to tell you all about it.&lt;/a&gt;&lt;/p&gt;&lt;h4&gt;Are you considering React Native?&lt;/h4&gt;&lt;p&gt;Mario will talk about &lt;a href=&#34;https://droidconin.talkfunnel.com/2016/87-react-native-in-production&#34;&gt;how Myntra uses React Native in production&lt;/a&gt;, and their learnings and insights from it.&lt;/p&gt;&lt;h4&gt;Perhaps the hottest tech in Android this year, Firebase.&lt;/h4&gt;&lt;p&gt;Soham shares his experience using it across a variety of apps &lt;a href=&#34;https://droidconin.talkfunnel.com/2016/99-firebase-realtime-database-deep-dive&#34;&gt;talking about what it can or can&#39;t do&lt;/a&gt;, and when and where it makes sense for you to use it.&lt;/p&gt;&lt;p&gt;Besides these, droidconIN has three main areas of focus:&lt;/p&gt;&lt;h3&gt;Re-architect&lt;/h3&gt;&lt;p&gt;Every year the Android ecosystem has new ideas on what patterns and architecture work best, iterating over ways to make development easier, more readable, faster, and less error prone. Over the last year, we&#39;ve seen a major shift towards adopting some of the functional and reactive programming paradigms in Android.&lt;/p&gt;&lt;blockquote&gt;With the frameworks and patterns like RxJava, MVVM, and data-binding, bloated Activities and Fragments, AsyncTasks, and callbacks are a thing of the past.&lt;/blockquote&gt;&lt;p&gt;We&#39;ll take a hard look at these new paradigms and help answer some key questions:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Are these paradigms for you? What kind of problems to they solve?&lt;/li&gt;&lt;li&gt;Should you make the switch from what you currently use? What are the benefits?&lt;/li&gt;&lt;li&gt;Do they actually help maintainability, testing, collaboration, etc?&lt;/li&gt;&lt;li&gt;What kind of effort does it take to rewrite an app? Is it worth it?&lt;/li&gt;&lt;li&gt;How does knowing all of this help tech teams to organize themselves better?&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Deep Dives&lt;/h3&gt;&lt;p&gt;Learn about the inner workings of Android, and how you can use them to your advantage.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;How do you make your app evolve with use? Could you tailor it to a user&#39;s age, gender, and habits? &lt;a href=&#34;https://droidconin.talkfunnel.com/2016/50-mutative-design-user-not-users&#34;&gt;Faiz has some unconventional ideas on how you can embrace mutative design&lt;/a&gt;, and build a UI that is tailored to a user.&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://droidconin.talkfunnel.com/2016/86-deflating-the-layoutinflater&#34;&gt;Learn to extend Android&#39;s LayoutInflator&lt;/a&gt;, and plug in your custom views and attributes.&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://droidconin.talkfunnel.com/2016/65-proteus-android-layout-engine&#34;&gt;What if you don&#39;t need XML Layouts anymore&lt;/a&gt;, but loaded everything by server-provided JSON? You can make all UI changes remotely!&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://droidconin.talkfunnel.com/2016/105-constraint-layout-in-one-go&#34;&gt;Learn about ConstraintLayouts&lt;/a&gt;, and how you can do away with all of those complex, nested and weighted LinearLayouts and RelativeLayouts.&lt;/li&gt;&lt;li&gt;&lt;a href=&#34;https://droidconin.talkfunnel.com/2016/93-android-ndk-porting-native-softwares-to-android&#34;&gt;Get started with Android&#39;s NDK&lt;/a&gt;, and learn how to utilise C/C++ libraries inside your Android apps and gain a performance boost.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Emerging&lt;/h3&gt;&lt;p&gt;We&#39;ll also cover a bunch of emerging tech and trends in the Android ecosystem this year. These will include things like &lt;a href=&#34;https://droidconin.talkfunnel.com/2016/47-brillo-and-weave-iot-the-next-thunderstorm&#34;&gt;Brillo and Weave for IoT devices&lt;/a&gt;, &lt;a href=&#34;https://droidconin.talkfunnel.com/2016/19-android-robotics&#34;&gt;Android and Robotics&lt;/a&gt;, etc.&lt;/p&gt;&lt;p&gt;Besides this, we also discuss &lt;a class=&#34;markup--anchor markup--p-anchor&#34; href=&#34;https://droidconin.talkfunnel.com/2016/45-android-security-internals&#34;&gt;Android&#39;s security architecture&lt;/a&gt;, &lt;a href=&#34;https://droidconin.talkfunnel.com/2016/22-the-kotlin-way&#34;&gt;Kotlin&lt;/a&gt;, Xamarin and many more.&lt;/p&gt;&lt;p&gt;&lt;a href=&#34;https://droidcon.in/2016/#schedules&#34;&gt;You can see the full schedule here.&lt;/a&gt;&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Planning Droidcon 2013</title>
+    <id>https://droidcon.in/2012/planning-droidcon-2013</id>
+    <link href="https://droidcon.in/2012/planning-droidcon-2013"/>
+    <updated>2012-11-04T11:35:42.974421Z</updated>
+    <published>2012-11-04T11:20:47.334361Z</published>
+    <content type="html">
+      &lt;p&gt;These are notes from an incredibly productive closing session at Droidcon 2012 where we welcomed feedback towards the planning of 2013.&lt;/p&gt;
+&lt;p&gt;Nearly 150 participants stayed on until nearly 7PM(!) and offered great ideas. We&#39;ve categoried them in order of priority (P1 highest) based on a show of hands at the event.&lt;/p&gt;
+&lt;p&gt;First, a quick announcement: Droidcon 2013 is going to be a 3 day session! It&#39;s going to happen at the end of November 2013.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ideas for 2013&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(P1)   Put out early guidelines on what beginner/intermediate/advanced mean so that speakers can be more consistent in classifying their sessions, and attendees can gauge their interest levels&lt;/li&gt;
+&lt;li&gt;(P1)   More advanced sessions that cover system level topics - consider a systems oriented track&lt;/li&gt;
+&lt;li&gt;(P1)   Several developers build both iOS and Android apps - there is interest in cross platform, but not just HTML5, but core/native approaches &amp;amp; design for each platform.&lt;/li&gt;
+&lt;li&gt;(P1)   Foster more informal offline discussions with some structure, while reducing structure and formal steps around the main tracks
+&lt;ul&gt;
+&lt;li&gt;Bulletin Board with post-its to connect (&#39;startups&#39;, &#39;looking for a tech co-founder&#39;)&lt;/li&gt;
+&lt;li&gt;Get to know who else is attending (attendees register on lanyard.com)&lt;/li&gt;
+&lt;li&gt;Speakers can indicate where they will be for follow o n discussions - for instance, a lounge table # in the Speaker Lounge&lt;/li&gt;
+&lt;li&gt;Stickers for name tags - indicate UX, Systems, VCs, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;(P2)   Consider running one track barcamp style&lt;/li&gt;
+&lt;li&gt;(P3)   Consider having an informal hacknight on the 1st/2nd night of the event&lt;/li&gt;
+&lt;li&gt;(P1)   Communication can be improved &amp;amp; made available earlier
+&lt;ul&gt;
+&lt;li&gt;A newly designed Android app is being designed and built by @lut4rp, he is da man.&lt;/li&gt;
+&lt;li&gt;The whole mechanics of how the event websites are being has been revamped, and next years site should be up well in advance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;(P3) Consider gamification of the NFC interactions
+&lt;ul&gt;
+&lt;li&gt;possible WiFi constraints?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;(P2) Speaker Prizes/Recognition? Is that the right incentive? Can we judge parallel track sessions effectively?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Misc Feedback&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Overall quality of content was good&lt;/li&gt;
+&lt;li&gt;More app ideas + app jam sessions&lt;/li&gt;
+&lt;li&gt;Casual hallway discussions &amp;amp; networking was good&lt;/li&gt;
+&lt;li&gt;Everyone feet welcome&lt;/li&gt;
+&lt;li&gt;30 minutes - worked well, pushed speakers to be more effective and efficient.
+&lt;ul&gt;
+&lt;li&gt;Some speakers may need to submit 2 sessions or a workshop if they have more content.&lt;/li&gt;
+&lt;li&gt;Speakers who finished in 10-15 minutes may need to work on pacing themselves.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Logistics &amp;amp; Infra&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Need a better mobile projectors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once more, a special thanks to the members of the Program Committee, all of whom are from the community and took time out of their day jobs.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Aravind Krishnaswamy - Program Chair (@twitortat)&lt;/li&gt;
+&lt;li&gt;Amrit Sanjeev - Assistant Chair (@amsanjeev)&lt;/li&gt;
+&lt;li&gt;Soham Mondal (@s0ham)&lt;/li&gt;
+&lt;li&gt;Kingsley Joseph (@kingsley2)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A special thanks to all the volunteers for all their hard work behind the scenes. And this event wouldnt have been possible without our awesome sponsors!&lt;/p&gt;
+&lt;p&gt;Thanks everyone for all the support &amp;amp; feedback. Lets hope the Mayans were wrong, and we&#39;ll regroup again next year.  Comments are yet to be built into this site - meanwhile send ideas to Kiran (@jackerhack) and Arvi (@twitortat).&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">&#34;For Droidcon 2013, I would like to see...&#34;</title>
+    <id>https://droidcon.in/2012/for-droidcon-2013-i-would-like-to-see</id>
+    <link href="https://droidcon.in/2012/for-droidcon-2013-i-would-like-to-see"/>
+    <updated>2012-11-03T09:38:16.598267Z</updated>
+    <published>2012-11-03T08:26:04.160428Z</published>
+    <content type="html">
+      &lt;p&gt;Just an afternoon more to go before Droidcon 2012 comes to an end. The participants are enjoying themselves and busy making the most out of their time here. We have been talking to a few about how it has been till now as well as what they would like to see in Droidcon 2013. Here are a few of the thoughts that they shared.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ruchir, &lt;/strong&gt;who has been a Linux developer in the past, was interested in understanding accessibility features in Android phones and also about backend development. Even though we had many core development talks this time, it seems his appetite for those was not satisfied.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shreyas, Raghotham&lt;/strong&gt; and &lt;strong&gt;Nischal &lt;/strong&gt;are enjoying themselves. It seems they found the talks so interesting that they wanted the sessions to last longer than just 30 minutes. They found the session on &lt;strong&gt;Kinect and Android by&lt;/strong&gt; &lt;strong&gt;Allen Thomas Varghese &lt;/strong&gt;and the one on &lt;strong&gt;using websockets to control robots in real time by Sudhar Muthu&lt;/strong&gt; to be extremely interesting. &lt;strong&gt;Soham&#39;s crash course on Android development &lt;/strong&gt;had reached out to many of the participants and these three were among them. Upon being asked what they would like to see in Droidcon 2013, they said in one breath, &#34;Bring on the goodies!&#34;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sushma and Shubha &lt;/strong&gt;were much impressed by &lt;strong&gt;Sudhar Muthu&#39;s talk on Robotics. &lt;/strong&gt;They also found &lt;strong&gt;Isaac Wesley&#39;s talk on Constructive design for Android&lt;/strong&gt; equally interesting. Extremely interested in coding, they wish for more hands on sessions where they can sit and hack it out. Hey team, we should really make sure these two get to know about our Hacknights!&lt;/p&gt;
+&lt;p&gt;News, twitter, word of mouth, mailing lists, event notices - seems just not enough as far as &lt;strong&gt;Amit Chatterjee&lt;/strong&gt; was concerned. &#34;I want to know of these events, so reach out to me!&#34;. Enthusiastic about tech events and always looking to hang out with fellow developers, he was glad that he came to know about Droidcon at least at the last moment. We promise to reach out to the geeks there and for any among who is wondering right now how to know of HasGeek events, &lt;a href=&#34;http://hasgeek.us2.list-manage.com/subscribe?u=c84c1486d2d6a025417c5d146&amp;amp;id=47afa263c6&#34; target=&#34;_blank&#34;&gt;sign up&lt;/a&gt; to be notified of our events.&lt;/p&gt;
+&lt;p&gt;While Ashwan was walking around talking to the participants, he happened to meet &lt;strong&gt;god (aka Kingsly) &lt;/strong&gt;and a certain lady by the name of &lt;strong&gt;Francesca, &lt;/strong&gt;on his way. Before even getting a chance to greet them, Kingsley jumped in, &#34;The event is awesome! Party on dude!&#34;. Francesca followed up, &#34;Internet is awesome! Internet guy is awesome!&#34;.&lt;/p&gt;
+&lt;p&gt;In case some among you might be wondering, Kingsley is our man behind the Internet here at the venue and Francesca is co-ordinating everyone, telling us what needs to be done. So if the Internet is good for you guys, thank god.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Krishnan &lt;/strong&gt;was one among those who wanted to sit and hack at something, and as such was expecting more hands-on sessions. He loved &lt;strong&gt;Isaac&#39;s session on design for Android&lt;/strong&gt; and is eagerly looking forward to the developers sharing their experiences with the crowd.&lt;/p&gt;
+&lt;p&gt;The end&#39;s in sight for this year folks! Get ready, for Droidcon 2012 is going to end with a bang!&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Droidcon 2012 is on!</title>
+    <id>https://droidcon.in/2012/droidcon-2012-is-on</id>
+    <link href="https://droidcon.in/2012/droidcon-2012-is-on"/>
+    <updated>2012-11-02T05:51:01.725104Z</updated>
+    <published>2012-11-02T05:47:39.310045Z</published>
+    <content type="html">
+      &lt;p&gt;This is so exciting! Droidcon is on and its quite a rush at the registration desks. Everyone is comfy with the venue and many are already making new droid friends. It is heart warming to know that people have actually flown in from various parts of the country including Delhi and Pune just for the event.&lt;/p&gt;
+&lt;p&gt;We have been talking to some of the participants and they shared their feelings and expectations on being here.&lt;/p&gt;
+&lt;p&gt;It was &lt;strong&gt;Shashi Kant&lt;/strong&gt; and &lt;strong&gt;Harvinder &lt;/strong&gt;who had flown in from Delhi for the event. Already excited at being here, they are looking forward to the talks and meeting fellow developers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ajay Sharma&lt;/strong&gt;, who is enthusiastic about game development, said that he was interested in the minute details of development that people usually tend to overlook. Going through a few of the proposed sessions, he realized that this was the place to be and is eagerly waiting to get the day started. He even showed us his schedule where he had already thought out and made plans for which all talks he was going to attend! I&#39;m sure we&#39;ll find only a handful who have come that much prepared.&lt;/p&gt;
+&lt;p&gt;The HasGeek crew including all the volunteers, are all over the place, getting the venue into shape and busy making sure that it is going to be a wonderful experience for the attendees.&lt;/p&gt;
+&lt;p&gt;Taking to &lt;strong&gt;Chandravadan&lt;/strong&gt; and &lt;strong&gt;Ragvendra, &lt;/strong&gt;we were reassured that Droidcon was not only just about writing software for Android phones, but it was also about making good friends. It seems that these two jovial folks met in the bus and the term &#34;Droidcon&#34; was all that they needed to start up an interesting chat. They were sitting together after registrations trying to figure out which all talks they wanted to attend. They found most of the talks to be interesting and were a bit confused about whether to attend &lt;strong&gt;James hugman&#39;s talk on The state of web AND native in 2012 &lt;/strong&gt;or &lt;strong&gt;Yashwanth Kumar&#39;s talk on DelightCircle. &lt;/strong&gt;Hope they&#39;ve figured it out!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Udai Kiran, &lt;/strong&gt;who was pretty new to the area of Android development, said that he was really looking forward to the talk on &lt;strong&gt;Stealing a droid app + data in daytime by Akash Mahajan. &lt;/strong&gt;Excited to be here, he is looking forward to hanging out as well as attending the talks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Nishant&lt;/strong&gt;, who has flown in from Pune was interested in meeting enthusiastic developers, which he is sure to find among the crowd here.&lt;/p&gt;
+&lt;p&gt;People have their times in life where they switch between management and coding. &lt;strong&gt;Prabash Takur &lt;/strong&gt;is one among them who has gone over to management recently. However, his love for code still remains and image processing is his area of interest and as such, is looking forward to the talk on &lt;strong&gt;OpenCV image processing by Wingston Sharon. &lt;/strong&gt;He expressed his amazement at not having known about HasGeek any sooner and was happy that he got to know about Droidcon from his friend before it was too late.&lt;/p&gt;
+&lt;p&gt;Well, it seems the folks are all set and ready for the day ahead. Let the show begin!&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Getting to Droidcon, hashtags, Google+ and more</title>
+    <id>https://droidcon.in/2012/getting-to-droidcon-hashtags-google-and-more</id>
+    <link href="https://droidcon.in/2012/getting-to-droidcon-hashtags-google-and-more"/>
+    <updated>2012-11-01T22:31:24.960921Z</updated>
+    <published>2012-11-01T22:31:41.132929Z</published>
+    <content type="html">
+      &lt;p&gt;&lt;strong&gt;Getting there&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For directions to the Droidcon India venue, check out this post: &lt;a href=&#34;http://droidcon.in/2012/directions-to-venue&#34;&gt;http://droidcon.in/2012/directions-to-venue&lt;/a&gt; In case you&#39;re still having trouble, please call &lt;span&gt;Mr. Prasanna Kumar (+91 88613 01788), Manager, MLR Convention Centre or Mr. Kiran Kumar, Associate Manager (+91 98800 85365) for help.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Registration, ID and students&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Try to get to the venue by 9:00am. You will beat the crowds on the road as well as the ones queueing up at the registration desk. We&#39;ve also got some breakfast for the few early birds! Please pick up your participant badge and kit from the registration desk and wear the badge at all times on both days of the conference. You &lt;strong&gt;do not &lt;/strong&gt;need a print out or an electronic copy of your ticket but just any id with the same name as the one you&#39;ve registered with. Those who have bought a student ticket will need to use a valid student id card.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Your badge contains an NFC card which you can use to share your contact details at any of the sponsor stalls. HasGeek does not share participant details with sponsors without your explicit permission. Please do return the NFC card at the end of the conference. You can keep the badge as a souvenir though.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Dress code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I&#39;m just kidding, we don&#39;t have a dress code at HasGeek events! But thanks to cyclone Nilam, it might be a good idea to carry some form of rain-wear on the off chance you need to step out. The auditorium and halls may also get chilly with the air conditioning, so you may want to have a light jacket or sweater.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Twitter hashtag, Google+ Event&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is an Android event, so I&#39;m sure many of you will be busy tweeting or snapping photos with your smartphones. The official Twitter hashtag for the event is &lt;a href=&#34;https://twitter.com/search/%23droidcon&#34;&gt;#droidcon&lt;/a&gt;. Droidcon London was about a week ago, and I still see a few tweets from them, so I&#39;m counting on all of you to drown them out with the Droidcon India tweets!&lt;/p&gt;
+&lt;p&gt;We&#39;ve also set up a &lt;a href=&#34;https://plus.google.com/114844064379594400532&#34;&gt;Google+ event&lt;/a&gt; for Droidcon India, so be sure to join in and share any photos you&#39;ve taken there.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Anything else?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If I&#39;ve missed anything out or you need any other information (other than directions!) please do call Zainab (+91 99454 73641) or Francesa (+91 74066 36803) or catch any of us at the HasGeek desk/registration counter. Even if you don&#39;t have questions, feel free to stop and talk to us, give us your thoughts about the event. We love catching up with fellow geeks!&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Intuit – A 30 Year old startup with Mobile First thinking </title>
+    <id>https://droidcon.in/2012/intuit-30-year-old-startup-mobile-first</id>
+    <link href="https://droidcon.in/2012/intuit-30-year-old-startup-mobile-first"/>
+    <updated>2012-11-01T20:55:18.232289Z</updated>
+    <published>2012-11-01T20:40:23.537780Z</published>
+    <content type="html">
+      &lt;p&gt;&lt;a href=&#34;http://www.forbes.com/sites/bruceupbin/2012/09/04/intuit-the-30-year-old-startup/&#34;&gt;Forbes&lt;/a&gt; magazine recently referred to Intuit as a &lt;a href=&#34;http://www.youtube.com/watch?v=j1F_fmtBGXI&#34;&gt;30 year old startup&lt;/a&gt; for the culture that it has in bringing new ideas to impact.&lt;/p&gt;
+&lt;p&gt;Folks at Intuit are driven to improve small businesses&#39; financial lives across the world so profoundly that they can’t imagine going back to the old way of doing things. Marching with this purpose, Intuit folks build financial software such as &lt;a href=&#34;http://en.wikipedia.org/wiki/Quicken&#34;&gt;Quicken&lt;/a&gt;, &lt;a href=&#34;http://en.wikipedia.org/wiki/QuickBooks&#34;&gt;QuickBooks&lt;/a&gt; and several others that are loved and recommended by millions of customers in the US. Very recently &lt;a href=&#34;http://quickbooksonline.in/&#34;&gt;QuickBooks&lt;/a&gt; was made available in &lt;a href=&#34;http://quickbooksonline.in/&#34;&gt;India&lt;/a&gt; to delight small business customers here.  &lt;/p&gt;
+&lt;p&gt;With its ubiquity, mobile phones have introduced a fundamental shift in the behavior of users and small businesses world over. Many of small businesses are running their entire business from a mobile. Keeping in tune with this change Intuit is trying to reimagine how solutions can be built with a &lt;a href=&#34;http://allthingsd.com/20120626/interview-brad-smith-on-transforming-intuit-into-a-mobile-first-company/&#34;&gt;mobile first&lt;/a&gt; thinking. An example is &lt;a href=&#34;http://www.youtube.com/watch?v=8u6xSIeeY0g&#34;&gt;SNAP Tax&lt;/a&gt; which lets a user use a cellphone camera to scan in their tax deduction form and for simple returns, file taxes straight from the device.&lt;/p&gt;
+&lt;p&gt;Android is a key mobile platform amongst smartphone platform in the market and Intuit has several &lt;a href=&#34;https://play.google.com/store/apps/developer?id=Intuit+Inc&#34;&gt;applications developed on the Android&lt;/a&gt; platform. Last year engineers from Intuit India Development Center attended Droidcon India and were quite blown away to be part of the largest Android developer conference in this side of the world. This prompted us to support the conference as a sponsor this year.&lt;/p&gt;
+&lt;p&gt;We would love to share &amp;amp; learn from other droid attendees; feel free to talk to us at our stall at Droidcon. You will also find it easy to recognize us in Intuit blue t-shirts inside the conference halls. You can find some of us on Twitter as well &lt;a href=&#34;http://twitter.com/mtrajan&#34;&gt;@mtrajan&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/sdaas&#34;&gt;@sdaas&lt;/a&gt;, &lt;a href=&#34;http://twitter.com/madhavn&#34;&gt;@madhavn&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/pranayairan&#34;&gt;@pranayairan&lt;/a&gt; , &lt;a href=&#34;https://twitter.com/gkrishnan&#34;&gt;@gkrishnan&lt;/a&gt;            &lt;/p&gt;
+&lt;p&gt;Intuit IDC was also ranked as the &lt;a href=&#34;http://www.greatplacetowork.in/best-companies/indias-best-companies-to-work-for&#34;&gt;#8 great places to work&lt;/a&gt; in India 2012 by GPTW India &amp;amp; Economic times and is also ranked as &lt;a href=&#34;http://www.intuit.in/html/press_room_awards.htm&#34;&gt;Fortune #1 most admired Software Company in the world&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt; &lt;em&gt;This is a sponsored blog post from Intuit&lt;/em&gt;&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">The hashtag chat with the team behind Atooma</title>
+    <id>https://droidcon.in/2012/the-hashtag-chat-with-the-team-behind-atooma</id>
+    <link href="https://droidcon.in/2012/the-hashtag-chat-with-the-team-behind-atooma"/>
+    <updated>2012-11-01T04:15:15.977324Z</updated>
+    <published>2012-11-01T04:15:40.356391Z</published>
+    <content type="html">
+      &lt;p&gt;We had a fun chat with the Atooma team yesterday with one minor hiccup at the start. We were ready to chat with them an hour early thanks to a mix up with time zones!&lt;/p&gt;
+&lt;p&gt;In case you missed it, we&#39;ve gathered up most of the &lt;a href=&#34;http://storify.com/ashwan/droidcon-india-chats-with-the-atooma-team&#34;&gt;tweets from the chat&lt;/a&gt; on Storify, but don&#39;t let the conversation end there! Feel free to tweet to us anytime at &lt;a href=&#34;http://twitter.com/droidconin&#34;&gt;@droidconIN&lt;/a&gt;&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Directions to the Venue</title>
+    <id>https://droidcon.in/2012/directions-to-venue</id>
+    <link href="https://droidcon.in/2012/directions-to-venue"/>
+    <updated>2012-11-01T02:45:09.850335Z</updated>
+    <published>2012-11-01T02:45:19.675894Z</published>
+    <content type="html">
+      &lt;p&gt;The MLR Convention Centre is situated in Mahadevpura. Should you take an auto or a taxi or ask for directions on the road when driving, it is advisable to say Mahadevpura, or Mahadevpura Post to be more precise.&lt;/p&gt;
+&lt;p&gt;You can reach MLR Convention Centre from either from K R Puram side, or from ITPL, depending on which direction you are coming from.&lt;/p&gt;
+&lt;p&gt;If you come from K R Puram side, the landmarks to watch out for are:&lt;/p&gt;
+&lt;p&gt;1. Whitefield Honda Showroom&lt;br&gt;2. Bimal Maruti Showroom (on your right. You are about a kilometer or so away from the venue from this point.)&lt;br&gt;3. Phoenix Market City (on your left)&lt;br&gt;4. VST Tillers and Tractors (on your left)&lt;/p&gt;
+&lt;p&gt;After VST tractors and tillers, take the immediate left and continue straight down, until about 750 meters or till you reach the end (where you see the railway line). MLR Convention Centre is the last building on your right.&lt;/p&gt;
+&lt;p&gt;If you come from ITPL, watch for the Brigade Metropolis building on your left. Skip the right after Metropolis and take the second right turn. Continue into the right turn until about 750 meters or till you reach the end (where you see the railway line). MLR Convention Centre is the last building on your right.&lt;/p&gt;
+&lt;p&gt;At the entrance of the lane where the MLR Convention Centre is situated, there is a prominent signboard for CounterCulture. The MLR Convention Centre signboard is smaller and less significant. Also, the signboards of shops on the main road will say Garudacharpalaya. You are in the right area.&lt;/p&gt;
+&lt;p&gt;If you come from Old Madras Road or the Old Airport Road, you can turn left at the Kundalahalli Gate. Some of the landmarks on your way from here are Hyper City Mall, Dominos Pizza, ITPL DND Road and Brigade Metropolis.&lt;/p&gt;
+&lt;p&gt;You can also take the Metro until Byappanahalli. MLR Convention Centre is about 8-9 kms from the metro station.&lt;/p&gt;
+&lt;p&gt;For those planning to commute via BMTC buses, there are a number of air-conditioned volvo buses (red in colour) as well as non-AC buses which go to ITPL from various parts of the city. From ITPL, you can take a rickshaw. If you are on a bus from ITPL, get off at Garudacharpalya and cross the road. Look for the Counter Culture signboard. If you are coming by bus from KR Puram, get off at Garudacharpalya bus stop. The stop is right at the junction where the Counter Culture signboard is. People coming from other parts should take a bus on the ring road and get off at “Tin Factory”. From here, switch to a bus heading towards ITPL.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The routes to Whitefield, irrespective of whether you are coming from K R Puram side or from the Outer Ring Road, experience heavy traffic after 8 AM. We advise you to plan your travel so that you start for the venue around 7:30 AM and reach the venue in time for registration and the keynote session. At this time, it will take you about 45 minutes to reach the venue. If you start later than 8:00 AM, it can take up to 1.5 hours to reach the venue. We will have some breakfast at the venue.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;One last pointer: the MLR Convention Centre shares its premises with the Brigade School. This is another landmark to watch for.&lt;/p&gt;
+&lt;p&gt;The address of the venue is:&lt;/p&gt;
+&lt;p&gt;MLR Convention Centre&lt;br&gt;Dyvasandra Industrial Layout&lt;br&gt;Mahadevapura, Whitefield&lt;br&gt;Bangalore, Karnataka&lt;br&gt;India&lt;/p&gt;
+&lt;p&gt;If you are lost or need directions, please call Mr. Prasanna Kumar (+91 88613 01788), Manager, MLR Convention Centre or Mr. Kiran Kumar, Associate Manager (98800 85365).&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Android* Application Development and Optimization on the Intel® Atom™ Platform</title>
+    <id>https://droidcon.in/2012/android-app-dev-intel-atom</id>
+    <link href="https://droidcon.in/2012/android-app-dev-intel-atom"/>
+    <updated>2012-10-31T18:55:20.262157Z</updated>
+    <published>2012-10-31T18:55:26.185553Z</published>
+    <content type="html">
+      &lt;p&gt;Intel and Lava launched the first Android* phone, the XOLO X900, based on the Intel® Atom™ processor in 2012. Many more Android phones based on the Intel Atom processor are planned to be released. This is exciting news for both end users and Android developers. To reach more consumers, it’s important for Android developers to know how to make their applications compatible and effective on these devices. This blog post introduces detailed methods for developing and porting an Android application on the Intel Atom platform. Android developers can use this blog post as a reference to build high quality applications for the Intel Architecture.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Android Application Classification&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Android applications can be classified into two types as shown in Figure 1.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dalvik applications that include Java* code and use the Android official SDK API only and necessary resource files, such as xml and png, compiled into an APK file.&lt;/li&gt;
+&lt;li&gt;Android NDK applications that include Java code and resource files as well as C/C++ source code and sometimes assembly code. All native code is compiled into a dynamic linked library (.so file) and then called by Java in the main program using a JNI mechanism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://droidcon.in/_themes/droidcon2012/img/2012/blog/intel-figure1.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Figure 1: Two types of Android applications&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. Android Native Development Kit&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.1 Introduction&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Android Native Development Kit (NDK) is a companion tool to the Android SDK. The NDK is a powerful tool for developing Android applications because it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Builds performance-critical portions of your applications in native code. When using Java code, the Java-based source code needs to be interpreted into machine language using a virtual machine. In contrast, the native code is compiled and optimized into binary directly before execution. With proper use of native code, you can build high performance code in your application, such as hardware video encoding and decoding, graphics processing, and arithmetical operation.&lt;/li&gt;
+&lt;li&gt;Reuses legacy native code. C/C++ codes can be compiled into a dynamic library that can be called by Java code with a JNI mechanism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2.2 Tools Overview&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During the development period, you can use the Intel® Hardware Execution Manager (HAXM) to improve Android simulator performance. HAXM is a hardware-assisted virtualization engine (hypervisor) that uses Intel® Virtualization Technology (Intel® VT) to speed up Android application emulation on a host machine. In combination with Android x86 emulator images provided by Intel and the official Android SDK Manager, HAXM results in a faster Android emulation experience on Intel VT-enabled systems. To get more information about HAXM, visit: &lt;a href=&#34;http://software.intel.com/&#34; title=&#34;Intel Software&#34;&gt;http://software.intel.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.3 Installing HAXM&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Use Android SDK Manager to install HAXM (recommended), or you can manually install HAXM by downloading the installer from Intel’s web site. If you want to update it automatically, please install it using Android SDK manager as shown in Figure 2. [1]&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://droidcon.in/_themes/droidcon2012/img/2012/blog/intel-figure2.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Figure 2: Install Intel HAXM using Android SDK Manager&lt;/p&gt;
+&lt;p&gt;You can also download an appropriate installation package from &lt;a href=&#34;http://www.intel.com/software/android&#34;&gt;http://www.intel.com/software/android&lt;/a&gt; to your host platform, and then follow the step-by-step instructions to install it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.3.1 Set up HAXM&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Android x86 system image provided by Intel is required when running HAXM. You can download the system image using Android SDK Manager or manually download it from the Intel® Developer Zone website.&lt;/p&gt;
+&lt;p&gt;After images install successfully, Intel® x86 Android emulator images are automatically executed using the “emulator-x86” binary provided with the Android SDK. The Android emulator is accelerated by Intel VT, which speeds up your development process.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Developing and Porting NDK Applications for Intel Atom Architecture&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.1 Developing NDK Applications for Intel Atom Processor-Based Devices&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;After successfully installing the NDK, please take a few minutes to read the documents in /docs/ directory, especially OVERVIEW.html and CPU-X86.html, so that you understand the NDK mechanism and how to use it.&lt;/p&gt;
+&lt;p&gt;NDK application development can be divided into five steps shown in Figure 3:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://droidcon.in/_themes/droidcon2012/img/2012/blog/intel-figure3.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Figure 3: NDK Application Development Process&lt;/p&gt;
+&lt;p&gt;The hello-jni demo is used to illustrate these five steps. You can find the demo in your NDK Root\samples\hello-jni folder [5]. Hello-jni demo is a simple application included in the NDK that get a string from a native method in a shared library and uses it in the application UI.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.1.1. Create native code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Create a new Android project and place your native source code under /jni/. The project content is shown in Figure 4. This demo includes a simple function in native code called Java_com_example_hellojni_HelloJni_stringFromJNI(). As shown in the source code, it returns a simple string from JNI.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://droidcon.in/_themes/droidcon2012/img/2012/blog/intel-figure4.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Figure 4: Create Native Code&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.1.2 Create MakeFile ‘Android.mk’&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;NDK applications are built for the ARM platform by default. To build NDK applications for the Intel Atom platform, you need to add APP_ABI := x86 into the MakeFile.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://droidcon.in/_themes/droidcon2012/img/2012/blog/intel-figure5.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Figure 5: Create MakeFile&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.1.3 Compile native code&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Build native code by running the &#39;ndk-build&#39; script from the project&#39;s directory. It is located in the top-level NDK directory. The result is shown in Figure 6.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://droidcon.in/_themes/droidcon2012/img/2012/blog/intel-figure6.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Figure 6: Compiled native code&lt;/p&gt;
+&lt;p&gt;The build tools automatically copy the stripped shared libraries to the proper location in the application&#39;s project directory.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.1.4 Call native code from Java&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When you deploy the shared library successfully, you can call the function from Java side. The code is shown in Figure 7. A public native function call stringFromJNI() is created in Java code, and this function loads the shared library using System.loadlibrary().&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://droidcon.in/_themes/droidcon2012/img/2012/blog/intel-figure7.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Figure 7: Call native code from Java&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.1.5 Debug with GDB&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you want to debug the NDK application with GDB, the following conditions must be satisfied:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;NDK application is built with &#39;ndk-build&#39;&lt;/li&gt;
+&lt;li&gt;NDK application is set to ‘debuggable’ in Android.manifest&lt;/li&gt;
+&lt;li&gt;NDK application is run on Android 2.2 (or higher)&lt;/li&gt;
+&lt;li&gt;Only one target is running&lt;/li&gt;
+&lt;li&gt;Add adb’s directory to PATH&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use the ndk-gdb command to debug the application. You can either set a breakpoint or a step-by-step debug to track the change history of a variable value as shown in Figure 8.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://droidcon.in/_themes/droidcon2012/img/2012/blog/intel-figure8.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Figure 8: Debug NDK application with GDB&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.2 Porting Existing NDK Applications to Intel Atom Processor-Based Devices&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In this section, it is assumed that you have an Android application for the ARM platform and that you need to port it before deploying it on the Intel Atom platform.&lt;/p&gt;
+&lt;p&gt;Porting Android applications to the Intel Atom platform is similar to the development process. The steps are shown in Figure 9.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://droidcon.in/_themes/droidcon2012/img/2012/blog/intel-figure9.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Figure 9: Port Android applications to the Intel Atom platform&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.2.1 Port Dalvik applications&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dalvik applications can run on Intel Atom processor-based devices directly. The user interface needs to be adjusted for the target device. For a high resolution device, such as tablets with a 1280*800 resolution or higher, default memory allocation may not meet the application requirements, which results in the inability to launch the application. Increasing the default memory allocation is recommended for high resolution devices.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.2.2 Port Android NDK applications&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Porting NDK applications is a bit more complicated than porting Dalvik applications. All NDK applications can be divided into three types based on the following properties of the native code:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Consists of C/C++ code only that is not related to hardware&lt;/li&gt;
+&lt;li&gt;Uses a third-party dynamic linked library&lt;/li&gt;
+&lt;li&gt;Includes assembly code that is highly related to non-IA platforms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Native code that consists of C/C++ code only that is not related to hardware&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Recompile the native code to run the application on the Intel Atom platform successfully.&lt;/li&gt;
+&lt;li&gt;Open the NDK project and search for Android.mk file and add APP_ABI := armeabi armeabi-v7a x86 in Android.mk and re-build the native code with ndk-build.&lt;/li&gt;
+&lt;li&gt;If the Android.mk file is not found, use the ndk-build APP_ABI=&#34;armeabi armeabi-v7a x86&#34; command to build the project.&lt;/li&gt;
+&lt;li&gt;Package the application again with supported x86 platforms.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If native code uses a third-party dynamic linked library, the shared library must be recompiled into x86 version for the Intel Atom platform.&lt;/p&gt;
+&lt;p&gt;If native code includes assembly code that is highly related to non-IA platforms, code must be rewritten with IA assembly or C/C++.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4. Optimizing Application Performance&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;4.1 Performance Tuning&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During the coding process, use the following methods to optimize your application performance on the Intel Atom Platform.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.1.1 Use Inline instead of Frequently Used Short&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Inline functions are best used for small functions such as accessing private data members. Short functions are sensitive to the overhead of function calls. Longer functions spend proportionately less time in the calling/returning sequence and benefit less from inlining. [4]&lt;/p&gt;
+&lt;p&gt;The Inline function saves overhead on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Function calls (including parameter passing and placing the object&#39;s address on the stack)&lt;/li&gt;
+&lt;li&gt;Preservation of caller&#39;s stack frame&lt;/li&gt;
+&lt;li&gt;New stack-frame setup&lt;/li&gt;
+&lt;li&gt;Return-value communication&lt;/li&gt;
+&lt;li&gt;Old stack-frame restore&lt;/li&gt;
+&lt;li&gt;Return&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;4.1.2 Use Float instead of Double&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;FPU is a floating-point unit that is a part of a computer system specially designed to carry out operations on floating point numbers, such as: addition, subtraction, multiplication, division, and square root. Some systems (particularly older, microcode-based architectures) can also perform various transcendental functions such as exponential or trigonometric calculations. Current processors perform these calculations with software library routines. In most modern general purpose computer architectures, one or more FPUs are integrated with the CPU [6].&lt;/p&gt;
+&lt;p&gt;The Intel Atom platform has FPU enabled. In most cases, using Float instead of Double speeds up the data computing process and saves memory bandwidth in Intel Atom processor-based devices.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.1.3 Multi-thread coding&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Multi-thread coding allows you to use the hyper-threading function of the Intel Atom processor to increase throughput and improve overall performance. For more information about multi-threading, refer to: http://www.intel.com/content/www/us/en/architecture-and-technology/hyper-threading/hyper-threading-technology.html&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4.2 Building High Performance Applications with Compiler Flags&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As you know, native code is built by GCC in Android applications. But do you know the default target device of GCC? It is the Pentium® Pro processor. Targeted binary code runs best on the Pentium Pro platform if you do not add any flags when compiling your native code. Most Android applications run on the Intel Atom platform instead of Pentium Pro. Adding specific flags according to your target platform is highly recommended. You can add the following recommended flags during compilation on the Intel Atom platform:&lt;/p&gt;
+&lt;pre&gt;-march=atom&lt;br&gt;-msse4&lt;br&gt;-mavx&lt;br&gt;-maes&lt;/pre&gt;
+&lt;p&gt;For more information about compiler parameters, refer to: &lt;a href=&#34;http://gcc.gnu.org/onlinedocs/gcc/i386-and-x86_002d64-Options.html&#34;&gt;http://gcc.gnu.org/onlinedocs/gcc/i386-and-x86_002d64-Options.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5. Conclusion&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This blog post discusses how to develop and optimize Android applications on Intel Atom platforms, as well as how to develop and port NDK applications.&lt;/p&gt;
+&lt;p&gt;A summary of the key points include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Most Android applications can execute on the Intel Atom platform directly. NDK applications need to recompile native code. If assembly code is included in the application, this portion of the code must be rewritten.&lt;/li&gt;
+&lt;li&gt;Make full use of IA (Intel Architecture) features to improve your Android application performance.&lt;/li&gt;
+&lt;li&gt;Add platform-specific compile switches to make the GCC build code more effective.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://software.intel.com/en-us/articles/installation-instructions-for-intel-hardware-accelerated-execution-manager-windows/&#34;&gt;http://software.intel.com/en-us/articles/installation-instructions-for-intel-hardware-accelerated-execution-manager-windows/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://software.intel.com/en-us/blogs/2011/08/18/understanding-x86-vs-arm-memory-alignment-on-android/&#34;&gt;http://software.intel.com/en-us/blogs/2011/08/18/understanding-x86-vs-arm-memory-alignment-on-android/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://software.intel.com/en-us/articles/ndk-android-application-porting-methodologies/&#34;&gt;http://software.intel.com/en-us/articles/ndk-android-application-porting-methodologies/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://msdn.microsoft.com/en-us/library/1w2887zk.aspx&#34;&gt;http://msdn.microsoft.com/en-us/library/1w2887zk.aspx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://developer.android.com/sdk/ndk/index.html&#34;&gt;http://developer.android.com/sdk/ndk/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Floating-point_unit&#34;&gt;http://en.wikipedia.org/wiki/Floating-point_unit&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;About the Author&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Dawei Cheng is an application engineer focused on enabling mobile applications, including Android application development and optimization for x86 devices, and Web HTML5 application development. Dawei also has rich experience in mobile application UI and UX design.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimers&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;All content provided on this blog post is for informational purposes only. The owner of this blog/blog post makes no representations as to the accuracy or completeness of any information on this site or found by following any link on this site. The owners will not be liable for any errors or omissions in this information nor for the availability of this information. The owners will not be liable for any losses, injuries, or damages from the display or use of this information.&lt;/p&gt;
+&lt;p&gt;*Other names and brands may be claimed as the property of others&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is a sponsored blogpost from Intel®&lt;/em&gt;&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Speaker previews</title>
+    <id>https://droidcon.in/2012/speaker-previews</id>
+    <link href="https://droidcon.in/2012/speaker-previews"/>
+    <updated>2012-11-01T01:24:42.203024Z</updated>
+    <published>2012-10-31T11:42:07.832006Z</published>
+    <content type="html">
+      &lt;p&gt;Droidcon 2012 is just around the corner. The enthusiasm is building up and everyone is set and ready for the droid talks as well as the party. This year we have some exciting talks queued up. You can find the list over &lt;a href=&#34;http://droidcon.in/2012/schedule&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here are a few of the speaker previews.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Akash Mahajan: The real incident of stealing a droid app+date in daytime&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A talk on how you can bypass developer security controls and steal data as well as the entire Android application package. Find more details &lt;a href=&#34;http://funnel.hasgeek.com/droidcon2012/506-the-real-incident-of-stealing-a-droid-app-data-in-daytime&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;iframe allowfullscreen=&#34;&#34; frameborder=&#34;0&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/OBdCt7t9lnQ&#34; width=&#34;560&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Anenth Guru: Augmented reality for navigation - Thru the galli&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Thru the Galli solves the last-mile navigation issues associated with current map based direction systems like Google Maps. Current directions work pretty well for known landmarks. But, to reach a specific location from a popular landmark through shortcuts, human assistance is required. Find mroe details &lt;a href=&#34;http://funnel.hasgeek.com/droidcon2012/523-augmented-reality-for-navigation-thru-the-galli&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;iframe allowfullscreen=&#34;&#34; frameborder=&#34;0&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/1OWo44Dka_M&#34; width=&#34;560&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Gaurav Kheterpal: Using appcelerator titanium to build native android apps without the native pain&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A talk on how you can use appcelerator titanium to break into the field of mobile development. It will also cover the classic native v/s hybrid v/s mobile web debate and how titanium fits into it. You can find more details &lt;a href=&#34;http://funnel.hasgeek.com/droidcon2012/548-using-appcelerator-titanium-to-build-native-android-apps-without-the-native-pain&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;iframe allowfullscreen=&#34;&#34; frameborder=&#34;0&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/qt2R1tFggFM&#34; width=&#34;420&#34;&gt;&lt;/iframe&gt;&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Twitter hashtag chat with Atooma - 31st Oct, 2:30 PM</title>
+    <id>https://droidcon.in/2012/hashtag-chat-with-atooma</id>
+    <link href="https://droidcon.in/2012/hashtag-chat-with-atooma"/>
+    <updated>2012-10-30T09:17:56.724821Z</updated>
+    <published>2012-10-30T09:18:11.344610Z</published>
+    <content type="html">
+      &lt;p&gt;&lt;span&gt;One of the things that makes Android such a fantastic platform is that developers get deep access to all areas of the phone. An excellent example of what you can do with this, see &lt;/span&gt;&lt;a href=&#34;http://www.atooma.com/&#34;&gt;Atooma&lt;/a&gt;&lt;span&gt;, an app that provides if/then functionality for anything that happens on your phone. Want your phone to read out SMSes to you when you&#39;re driving? With Atooma, you can have your phone watch your speed and read out messages if you are moving faster than a walking pace. Or you can cross-post SMSes to Twitter, or make the phone automatically go silent when you&#39;re in a multiplex.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;We asked the Atooma folks to join us for a Twitter hashtag chat. It&#39;s on for tomorrow, &lt;strong&gt;October 31, at 2:30 PM&lt;/strong&gt;. To join, simply &lt;/span&gt;&lt;a href=&#34;https://twitter.com/search?q=%23droidcon&amp;amp;src=typd&#34; target=&#34;_blank&#34;&gt;follow the #droidcon tag on Twitter&lt;/a&gt;&lt;span&gt; and tweet with #droidcon to ask questions. Atooma&#39;s CTO Fabrizio Cialdea and his team will answer your questions. Follow them on Twitter &lt;/span&gt;&lt;a href=&#34;https://twitter.com/atooma_team&#34; target=&#34;_blank&#34;&gt;@Atooma_Team&lt;/a&gt;&lt;span&gt; and save the date to your calendar.&lt;/span&gt;&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Quick tips for Droidcon Speakers</title>
+    <id>https://droidcon.in/2012/quick-tips-for-droidcon-speakers</id>
+    <link href="https://droidcon.in/2012/quick-tips-for-droidcon-speakers"/>
+    <updated>2012-10-26T16:17:52.159174Z</updated>
+    <published>2012-10-26T16:18:17.489898Z</published>
+    <content type="html">
+      &lt;p&gt;Are you a potential speaker at Droidcon? Here’s a few tips that might be handy!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Know your audience&lt;/strong&gt;&lt;br&gt;Here’s a few data points on the audience demographic based on job titles that might be useful for you to tune your presentations. (Note: this is based on Droidcon 2011 data, but you can expect a similar pattern).&lt;/p&gt;
+&lt;p&gt;55%   Engineer/Developer&lt;br&gt;10%   Students&lt;br&gt;8%     Manager&lt;br&gt;3%     Founder/Co-Founder&lt;br&gt;4%     C-level (CEO, CTO)&lt;br&gt;3%     Architect&lt;br&gt;17%   Misc&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prep for Offline Demos&lt;/strong&gt;&lt;br&gt;All speakers will be provided Wi-Fi access codes. However, invariably all conferences have their share of Wi-Fi and internet issues, and we’d recommend that you keep everything you need for your demo available offline just in case you run into issues. As you know, if things can go wrong, they will. So, dont leave things to chance.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Session Setup&lt;/strong&gt;&lt;br&gt;Please arrive at your session room at least 30 minutes in advance to prep. This will also give you a feel for the space, how the audience interacts, and how you’d like to position yourself best. If you’d like to take a bit of a break and relax someplace ahead of your session, feel free to stroll around the MLR Center or hop up to the balcony area of the Auditorium.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Accessorize&lt;/strong&gt;&lt;br&gt;If you have any special needs for your demos – Macbook adaptors, additional cables or wiring, or any specialized setup, please plan on bringing them along so they are at your finger tips.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Timing is Everything&lt;/strong&gt;&lt;br&gt;IMPORTANT: All sessions are allocated exactly 30 minutes. You have 20 minutes to present and 5 minutes for Q&amp;amp;A, with the remaining 5 minutes for the next presenter to begin setting up while you answer the last set of questions.&lt;/p&gt;
+&lt;p&gt;Speakers who have more content that 30 minutes are encouraged to either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;split their talk and propose two separate sessions via the Funnel, or &lt;/li&gt;
+&lt;li&gt;skip the first part of their presentation and make it an advanced session&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Time is of essence, and you’d want to pace your session effectively. Let the volunteers in your room know if you’d like a 5 &amp;amp; 10 minute reminder so you dont run out of time for questions.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Help Abounds&lt;/strong&gt;&lt;br&gt;Need help? Check in with the friendly volunteers or folks at the registration desk and they’ll be more than glad to assist. Just ask around for Noufal Ibrahim if you dont find anyone immediately.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;No pitches please, we’re geeks&lt;/strong&gt;&lt;br&gt;This is a developer event. So, if you have a pitch about your company, your apps, or yourself, please leave it at the door. And no freebies either, unless you are a sponsor (who BTW have some awesome giveaways).  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rehearse, Rehearse, Rehearse! &lt;/strong&gt;&lt;br&gt;If you have a demo, please take the time to rehearse at the Speaker’s Lounge to ensure all your bits are in place. The MLR Convention center has a firewall setup that may block access to some sites.&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Accommodation near Droidcon 2012 Venue</title>
+    <id>https://droidcon.in/2012/accommodation-near-venue</id>
+    <link href="https://droidcon.in/2012/accommodation-near-venue"/>
+    <updated>2012-10-26T15:11:56.981290Z</updated>
+    <published>2012-10-26T15:10:35.484121Z</published>
+    <content type="html">
+      &lt;p&gt;A significant number of participants coming to Bangalore to attend Droidcon are from different cities - Chennai, Delhi, Pune. We also have international attendees.&lt;/p&gt;
+&lt;p&gt;Visit our &lt;a href=&#34;../../../2012/hotels&#34;&gt;hotels page&lt;/a&gt; to check out the different stay options. We have provided details for hotels that suit the budget traveller&#39;s wallet. There are also hotels in central city areas for those among you who want to party in the city after an intense and wonderful conference!&lt;/p&gt;
+&lt;p&gt;Look forward to meeting all of you in Bangalore, at Droidcon.&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;btn btn-primary&#34; href=&#34;../../../2012/hotels&#34;&gt;Show Hotels&lt;/a&gt;&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Droidcon 2012 party at Counter Culture - it&#39;s partaay time, folks!</title>
+    <id>https://droidcon.in/2012/party</id>
+    <link href="https://droidcon.in/2012/party"/>
+    <updated>2012-10-26T04:38:07.481075Z</updated>
+    <published>2012-10-26T04:57:57.905232Z</published>
+    <content type="html">
+      &lt;p&gt;At a gathering of geeks, why meetup or party? Is this the question that comes to your mind when you read the title of the blog post? ;)&lt;/p&gt;
+&lt;p&gt;Meetups and parties are a regular feature of large conferences that we organize. These are occasions where you get to talk to speakers, fellow participants and all the conference attendees, outside the formal atmosphere of a conference set-up. The craziest and whackiest ideas emerge over a mug of beer or a toothpick of aloo tikki, a time when the mind is brimming with excitement, enthusiasm and mirth.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/hasgeek/6393423313/&#34; title=&#34;DroidconIN (337) by hasgeek, on Flickr&#34;&gt;&lt;img alt=&#34;DroidconIN (337)&#34; height=&#34;333&#34; src=&#34;http://farm8.staticflickr.com/7142/6393423313_dec439a8ba.jpg&#34; width=&#34;500&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In our experience of organizing conferences for the last two years, we have come to realize that participants let their hair down in an informal atmosphere, where everyone is having fun. We had a large gathering of about 250 participants at the Droidcon 2011 party, sponsored by GitHub. Participants chattered and chattered from 7 PM to 11 PM that evening!&lt;/p&gt;
+&lt;p&gt;At our recently concluded JavaScript conference - JSFoo - we had 60 people showing up for beer.js. Here is what &lt;a href=&#34;http://jaisonjustus.wordpress.com/2012/10/23/the-day-that-starts-changing-me/&#34;&gt;one of the JSFoo participants had to say about beer.js&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There at the bar me and Older Kamal have some talk with first mug of beer at the smoking area. the talk continute for more that half an hour i think. after that had the snack and i get prepared for next drink. ... ... ... later i asked Kamal M to join with me for a drink. he say yes i spare one beer token to him and i order a whiskey. from here my life is going to change. me and Kamal M moved to the smoking area and started talking. i think  that talk taken more that an hour. we discussed more technologies, personal stories and more. while we met the Robo(Enthiran) Rakesh Pai he explain about about how he made erroception also the robo. he explain about firmata and more. Rakesh put a proposal with Kamal M to start a commuity called Mumbai JS. Hear this i thought that the punch line of Cafe Coffee Day is wrong its ” a lot more can happen over a Beer” not coffee. after the party we split ed up and Kamal M moved to his hotel, Older Kamal to his home also Kasyup. i hired an rickshaw back to the room.&lt;/p&gt;
+&lt;p&gt;i found that i forgetten my shyness and fear while talking with Kamal (both) and made me to meet to many people. at the time while talking with Kamal M i forgot my Language problem and talked for more than an hour. now i realized that i can changing. these feeling are my negatives and i am happy for that i can wash it away. Also showed me who is a geek?&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.flickr.com/photos/hasgeek/8121830153/&#34; title=&#34;2012-10-19 16.02.43 by hasgeek, on Flickr&#34;&gt;&lt;img alt=&#34;2012-10-19 16.02.43&#34; height=&#34;334&#34; src=&#34;http://farm9.staticflickr.com/8331/8121830153_f6e7473ed0.jpg&#34; width=&#34;500&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So what are you waiting for! Every Droidcon India 2012 participant is invited to the event party on Friday, 2&lt;sup&gt;nd&lt;/sup&gt; Nov, from 6:00 PM onwards at Counter Culture restaurant!&lt;/p&gt;
+&lt;p&gt;For location and more information about the party venue, visit: &lt;a href=&#34;http://droidcon.in/2012/venue&#34;&gt;http://droidcon.in/2012/venue&lt;/a&gt;&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title type="text">Announcing Droidcon 2012</title>
+    <id>https://droidcon.in/2012/announcing-droidcon-2012</id>
+    <link href="https://droidcon.in/2012/announcing-droidcon-2012"/>
+    <updated>2012-10-25T10:40:47.894314Z</updated>
+    <published>2012-08-27T14:41:25.399634Z</published>
+    <content type="html">
+      &lt;p&gt;Droidcon is a two day international conference that&#39;s all about Android. It brings together luminaries from all aspects of the Android ecosystem - solo app developers, visual and interaction designers, software startups, enterprise software leaders, robotics and arduino wizards, kernel and ROM hackers, OEMs and platform providers, and technology enthusiasts. This years event follows the same format as last year&#39;s hugely successful conference that involved speakers from Google, Cyanogenmod, Robosoft, Future Platforms, Texas Instruments and other ecosystem players.&lt;/p&gt;
+&lt;h3&gt;Community Conference&lt;/h3&gt;
+&lt;p&gt;Droidcon is a HasGeek conference that&#39;s run by the Android community for the Android community. Speakers are selected via a community driven voting process and also curated by a Program Committee that consists of experts with several years of experience in the mobile space.&lt;/p&gt;
+&lt;p&gt;As a community event, we welcome participation and assistance. If you&#39;d like to propose a topic to speak about, please visit the HasGeek Funnel: &lt;a href=&#34;http://funnel.hasgeek.com/droidcon2012/&#34; target=&#34;_blank&#34; title=&#34;Droidcon - HasGeek Funnel&#34;&gt;funnel.hasgeek.com/droidcon2012&lt;/a&gt;. If you&#39;d like to be a part of helping out as a volunteer during the event, please contact &lt;a href=&#34;mailto:zainab@hasgeek.com&#34;&gt;zainab@hasgeek.com&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Schedule&lt;/h3&gt;
+&lt;p&gt;Droidcon 2012 is happening on Nov 2nd and 3rd at the MLR Convention Center, Whitefield in Bangalore. This years topics include:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;App Demos:&lt;/strong&gt; A series of &#39;show &amp;amp; tell&#39; stories from Android app developers, who demo their apps and then dive into specific challenges they faced and how they overcame them. Look out for rare nuggets of wisdom from those who&#39;ve been there and done that.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Workshops:&lt;/strong&gt; Informal classroom style hands on training with specific objectives and takeaways. Bring your laptop with the latest SDK &amp;amp; learn how to build easy animations, use listviews effectively, work with WebViews and more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Platforms, Tools &amp;amp; Libraries:&lt;/strong&gt; Quit blaming your tools &amp;amp; come see what everyone else is using to their advantage. Gain insights into usage of the latest and most popular platforms, tools &amp;amp; libraries, including cross-platform libraries like PhoneGap, Titanium Appcelerator, Kirin, Sencha &amp;amp; more.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Specialized Topics:&lt;/strong&gt; Watch people who&#39;ve taken Android to new limits - using sensors, robots, cars &amp;amp; in your TV.&lt;/p&gt;
+    </content>
+  </entry>
+</feed>

@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9">     <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js">        <!--<![endif]-->
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Workshop in droidconIN 2015">
+<meta name="author" content="HasGeek and friends">
+
+<meta property="og:title" content="droidconIN 2015 — Android And IoT Workshop"/>
+<meta property="og:image" content="https://droidcon.in/_themes/droidcon2015/img/logo-thumbnail.jpg"/>
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="328" />
+<meta property="og:image:height" content="328" />
+<meta property="og:url" content="https://droidcon.in/2015/android-and-iot-workshop"/>
+<meta property="og:description" content="Workshop in droidconIN 2015"/>
+
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+<link rel="icon" type="image/x-icon" href="../favicon.ico">
+
+<title>Android And IoT Workshop — droidconIN 2015</title>
+  <link rel="stylesheet" href="../_themes/droidcon2015/css/vendor/bootstrap.min.css.packed.css"/>
+  <link rel="stylesheet" href="../_themes/droidcon2015/css/font-awesome.min.css.packed.css"/>
+  <link rel="stylesheet" href="../_themes/droidcon2015/css/font-awesome-ie7.min.css.packed.css"/>
+  <link rel="stylesheet" href="../_themes/droidcon2015/css/typography.css.packed.css"/>
+  <link rel="stylesheet" href="../_themes/droidcon2015/css/layout.css.packed.css"/>
+  <link rel="stylesheet" href="../_themes/droidcon2015/css/theme.css.packed.css"/>
+  <link rel="stylesheet" href="../_themes/droidcon2015/css/objects.css.packed.css"/>
+  
+<!-- Leaflet -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.6.3/leaflet.min.css" />
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/leaflet/0.6.3/leaflet.ie.css" />
+<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:400,500,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="../_baseframe/css/networkbar.css">
+
+<script src="../_themes/droidcon2015/js/vendor/modernizr-2.6.2.js"></script>
+<!--<script src="/_themes/droidcon2015/js/vendor/jquery-1.10.2.min.js"></script>-->
+<!--<script src="/_themes/droidcon2015/js/vendor/bootstrap.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.1.3/mustache.min.js"></script>
+</head>
+<body class="fill-silver">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fill-silver">
+  
+    <div id="hg-bar" class="no-print">
+    <div class="container">
+          <ul id="hg-barlinks">
+            
+    <li id="hg-networkbar-home" class="strong"><a href="https://hasgeek.com/">HasGeek</a></li>
+    <li id="hg-networkbar-hasjob"><a href="https://hasjob.co/">Hasjob</a></li>
+    <li id="hg-networkbar-hgtv"><a href="https://hasgeek.tv/">HGTV</a></li>
+    <li id="hg-networkbar-talkfunnel"><a href="https://talkfunnel.com/">Talkfunnel</a></li>
+    <li id="hg-networkbar-events" class="selected"><a href="android-and-iot-workshop.html#" class="hg-submenu">Events</a>
+        <ul>
+          
+    <li id="hg-networkbar-metarefresh"><a href="https://metarefresh.in/">Meta Refresh</a></li>
+    <li id="hg-networkbar-rootconf"><a href="https://rootconf.in/">Rootconf</a></li>
+    <li id="hg-networkbar-fifthelephant"><a href="https://fifthelephant.in/">The Fifth Elephant</a></li>
+    <li id="hg-networkbar-jsfoo"><a href="https://jsfoo.in/">JSFoo</a></li>
+    <li id="hg-networkbar-droidcon"><a href="https://droidcon.in/">Droidcon India</a></li>
+    <li id="hg-networkbar-pastevents" class="hg-menu-section">Past events</li>
+    <li id="hg-networkbar-angularjs-miniconf"><a href="https://metarefresh.in/2014/angularjs-miniconf">AngularJS Miniconf</a></li>
+    <li id="hg-networkbar-cartonama"><a href="https://cartonama.com/2012">Cartonama Conference</a></li>
+    <li id="hg-networkbar-phpcloud"><a href="https://phpcloud.hasgeek.com/">Scaling PHP in the Cloud</a></li>
+    <li id="hg-networkbar-androidcamp"><a href="https://androidcamp.hasgeek.com/">AndroidCamp</a></li>
+    <li id="hg-networkbar-doctypehtml5"><a href="http://www.doctypehtml5.in/">DocType HTML5</a></li>
+        </ul></li>
+          </ul>
+    </div>
+  </div>
+  
+</div>
+
+
+<div id="page">
+
+
+<header class="banner-internal push-two-top resetcoords clearfix">
+  <div class="container-fluid">
+    <div class="row">
+
+      <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+        <h1 class="nospace">
+          <a class="ir logo" href="https://droidcon.in/">
+            droidconIN 2015
+          </a>
+        </h1>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-5 col-xs-4">
+        <h1 class="extrabold legible">droidcon india </h1>
+        <h3 class="calm tiny nospace-bottom all-caps">
+          17 - 18 Dec<span class="hidden-xs">ember</span> 2015
+          <br>
+          Bangalore
+        </h3>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+        <div class="flushright center-xs space-two-top space-one-bottom">
+<!--           <a class="button tiny" href="https://in.explara.com/e/droidconin-2015/checkout" target="_blank">Buy Tickets</a> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+
+
+
+
+
+  
+  
+  <section id="" class="clearfix fill-white ">
+<div class="container-fluid">
+  
+  
+  <div id="7-android-and-iot" class="row push-two-bottom pad-3q session">
+    <h3 class="large nospace-top medium push-one-top pad-half darkblue bold text-center">Android and IoT workshop</h3>
+    <div class="col-sm-4 col-xs-12">
+      <div class="speaker-bio">
+        
+        <div class="clearfix nospace-top push-one-top space-half-bottom speaker-info">
+          <img src="https://images.hasgeek.com/embed/file/f36a93c0917042f8948349179911bd79" alt="" class="center-block speaker-photo">
+          <h4 class="regular space-1q-top nospace-bottom text-center">Rupam Das</h4>
+          <div class="link-silent regular-prose space-1q-top nospace-bottom text-center twitter-blue"><a href="https://twitter.com/rupam_iics" target="_blank">@rupam_iics</a></div>
+        </div>
+        
+      </div>
+      <div class="speaker-details">
+        
+        <div class="tiny space-1q-top nospace-bottom"><p><a href="https://www.youtube.com/user/rupam800418" target="_blank">Rupam</a> is the founder and CEO of Integrated Ideas, Gulbarga. Integrated Ideas is a research and rapid prototyping company.</p></div>
+        
+      </div>
+    </div>
+    <div class="col-sm-8 col-xs-12">
+      
+      <div class="regular nospace-top push-one-top pad-half"><h2 class="legible semibold nospace-top space-half-bottom">Objective</h2><p>The objective of the session would be to walk through developers with Nitty Gritty of Android in Internet of Things. Internet of things integrates smart devices to cloud. Mobiles are preferred medium of Data visualization, notification and controlling. Android provides great deal of sensor support along with APIs for easy cloud integration. Therefore I would want to introduce architecture of IoT with Android with Intel Edison boards. How one can perform Home Automation, Survielance, Biometric, Sensor data analytics and beyond with Android would be aspects that I want to cover.<br>
+At the end of workshop, attendees must be able to get started with IoT with Android and should be able to design Control, Messaging, Data visualization with Android. I would particularly focus on open source technologies like MQTT, Java Scripts, Node Red, Web Services and Bluetooth.</p></div>
+      
+      <div class="regular space-one pad-half link-silent"><h2 class="legible semibold space-half">Description</h2><p>The session would have following Subtopics<br>
+1) Brief Introduction of IoT and how Android can play an important role in it<br>
+2) Communication between Smart ioT device and Android<br>
+               a) Fog Computing
+               b) MQTT
+               c) NoSql<br>3) Mini Project on Home Automation ( Controlling Light with Android)<br>
+4) Mini Project on Data Visualization ( Viewing Temperature Sensor Data in Android Device)<br>
+5) Mini  Project On Alarm ( Flood or Fire Alarm System in Android)<br>
+6) Concluding Remark</p></div>
+      <div class="regular space-one pad-half"><h2 class="legible semibold space-half">Requirements</h2><p>I should be able to provide 6 hardware Connected IoT devices. Connected with essential peripheral hardware ( Relay, Sensors, WiFi, Bluetooth)</p>
+<p>Attendees can focus on Android side communication ( We call the Client integration). So following devices will be desirable</p>
+<p>1) Android Phone ( 4.0 and Above)<br>
+2) Laptop ( Preferrably 64 bit)<br>
+3) Android Studio </p></div>
+      
+      <div class="regular space-one-top pad-half session-links"><p class="legible semibold">Links</p><ul><li><a href="http://www.slideshare.net/RupamDas4/proposed-presentation-for-droid-con-2015-android-with-iot" target="_blank">Android And IoT presentation</a></li><li><a href="http://www.codeproject.com/Articles/Grasshopper2011#articles" target="_blank">Codeproject tutorial Links ( Including Android and IoT)</a></li><li><a href="https://www.youtube.com/playlist?list=PLYcEbSH1D8QvkSHzXxCHdRaafVfamXt18" target="_blank">Intel Edison Video Tutorial Link</a></li><li><a href="https://www.youtube.com/playlist?list=PLYcEbSH1D8QtBrV0T-ZOfe9LCooa-J3Qk" target="_blank">My IoT/ Embedded Project</a></li><li><a href="https://scholar.google.com/citations?user=hQq296MAAAAJ&amp;hl=nl" target="_blank">My Google Scholar Page ( My Publications)</a></li></ul></div>
+      <div class="fb-share-button pad-half" data-href="https://droidcon.in/2015/android-and-iot-workshop" data-layout="button"></div>
+      <span class="tweet-button">
+      <a href="https://twitter.com/intent/tweet?text=Android and IoT workshop&url=https://droidcon.in/2015/android-and-iot-workshop&hashtags=droidconIN,HasGeek" 
+      class="twitter-hashtag-button" data-url="https://droidcon.in/2015/android-and-iot-workshop">Tweet</a>
+      </span>
+      <ul class="list-plain secondary space-one-top pad-half">
+        <li class="space-1q legible semibold">December 14, 2015</li>
+        <li class="space-1q">8:30 AM to 3:30 PM</li>
+        <li class="space-1q"><i class="icon-map-marker"></i>&nbsp; The Energy and Research Institute (TERI), Bangalore</li>
+        <li class="space-1q"><a class="orange" target="_blank" href="https://droidconin.talkfunnel.com/2015/7-android-and-iot">Read more ...</a></li>
+        <li class="large space-1q bold">Rs. 3000</li>
+      </ul>
+      
+    </div>
+  </div>
+  
+  </div>
+</section>
+
+
+
+<script id="scheduletemplate" type="text/x-mustache-template">
+  <h3 class="text-center space-two legible">{{date}}</h3>
+  <table class="schedule-table" id="{{tableid}}">
+    <thead>
+      <tr>
+        <th class="time semi-bold text-center regular">Time</th>
+        {{#rooms}}
+        {{#track}}
+          <th class="track{{track}} semi-bold text-center regular" data-td="track-{{track}}">{{title}}</th>
+        {{/track}}
+        {{^track}}
+          <th class="track{{track}} semi-bold tab-active text-center regular" data-td="track-{{track}}">{{title}}</th>
+        {{/track}}
+        {{/rooms}}
+      </tr>
+    </thead>
+    <tbody>
+    {{#slots}}
+      {{#issession}}
+      <tr>
+        <td class="time" scope="row"><p class="regular bold">{{slot}}</p></td>
+        {{#sessions}}
+        {{#is_break}}
+        <td colspan="2" class="centered" rowspan={{rowspan}}>
+          <h4 class="space-1q secondary-prose">{{title}}</h4>
+          <p class="space-1q secondary"><em>{{start}} - {{end}}</em></p> 
+        </td>       
+        {{/is_break}}
+        {{^is_break}}
+        {{#track}}
+          <td class="track-{{track}}" rowspan={{rowspan}}>
+        {{/track}}
+        {{^track}}
+          <td class="track-{{track}} tab-active" rowspan={{rowspan}}>
+        {{/track}}
+            <h4 class="link-silent space-1q secondary-prose">
+              {{#proposal_url}}
+              <a href="https://droidcon.in/2015/{{proposal_url}}" target="_blank" class="orange">{{title}}</a>
+              {{/proposal_url}}
+              {{^proposal_url}}
+              {{title}}
+              {{/proposal_url}}
+              {{#description}}
+              <i class="icon-chevron-sign-down tiny lightgray expand"></i>
+              {{/description}}
+            </h4>
+            {{#description}}
+            <div class="space-1q tiny description-text text-left">{{{description}}}</div>
+            {{/description}}
+            {{#speaker}}
+            <p class="space-1q regular-prose bold">{{speaker}}</p>
+            {{/speaker}}
+            {{#title}}
+            <p class="space-1q secondary-prose"><em>{{start}} - {{end}}</em></p>
+            {{/title}}
+          </td>
+        {{/is_break}}
+        {{/sessions}}
+      </tr>
+      {{/issession}}
+    {{/slots}}
+    </tbody>
+  </table>
+</script>
+
+<section id="schedules" class="page-section clearfix fill-silver-hud push-two-top push-four-bottom">
+  <div class="container schedule-container">
+    <div class="text-center" id="conference-schedule">
+      <h2 class="legible medium prose-type all-caps text-center space-one-top">Workshop Schedule</h2>
+      <div class="schedule-table-container text-center" id="workshopschedule" data-date="14">
+        <p class="text-center loadingtxt"><a class="button dark regular" href="https://droidconin.talkfunnel.com/2015/schedule">View Schedule</a></p>
+      </div>
+    </div>
+  </div>  
+</section>
+
+
+  
+  
+  <section id="workshop-venue" class="venue push-four-top push-two-bottom clearfix">
+  <div class="container">
+      <div class="row">
+          <h3 class="col-sm-12 col-xs-12 large medium all-caps text-center space-one prose-type"> Workshop Venue </h3>
+      </div>
+      <div class="row">
+      
+          <div class="pad-line">
+              <div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-12 legible-prose text-center">
+                <div class="regular-prose space-one">
+                  <p class="legible semibold">The Energy and Research Institute (TERI)</p>
+                  <p class="legible"><p>4th Main Rd, Domlur II Stage, <br>Domlur, Bangalore, <br>Karnataka 560008, India<br><a target="_blank" class="darkyellow" href="http://www.teriin.org/index.php?option=com_content&view=article&id=93&Itemid=65">TERI</a></p></p>
+                </div>
+              </div>
+          </div>
+          <div class="no-js-hidden space-one clearfix">
+              <h3 class="visuallyhidden">Map</h3>
+              <div class="col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1 legible-prose prose prose-type clearfix">
+                  <div
+                    class="border-one leaflet-map col-lg-12 col-md-12 col-sm-12 col-xs-12" id="toner" class="map"
+                    data-label="The Energy and Research Institute, Domlur"
+                    data-zoom="14"
+                    data-marker="12.9637, 77.6381">
+                  </div>
+              </div>
+          </div>
+          
+
+          
+
+        
+      </div>
+  </div>
+</section>
+
+
+
+
+<footer class="page-footer push-two fill-dark clearfix" id="about">
+
+  <div class="tiny">
+    <h3>
+      <a class="ir hasgeek-logo center-block" href="https://hasgeek.com/">
+        HasGeek
+      </a>
+    </h3>
+    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+      <div class="regular-prose">
+        <p><a href="http://hasgeek.com/" target="_blank">HasGeek</a> helps people in technology meet each other, collaborate on new opportunities and advance the state of the art. We organize conferences, hacknights, workshops and geekups, and provide tools for communities to self-organize.</p>
+        <p>We’ve created conferences around the themes of <a href="http://metarefresh.in/" target="_blank">front end engineering</a>, <a href="http://fifthelephant.in/" target="_blank">big data and cloud computing</a>, <a href="http://jsfoo.in/" target="_blank">JavaScript</a>, <a href="http://droidcon.in/" target="_blank">Android</a>, <a href="http://cartonama.com/" target="_blank">location-aware services</a> and <a href="http://rootconf.in/" target="_blank">devops</a>. Our <a href="http://jobs.hasgeek.com/" target="_blank">Job Board</a> is used by thousands of geeks every month to find new opportunities.</p>
+        <p>HasGeek is a technology company in the media business, bringing software automation to a traditionally people-intensive operation. HasGeek has organized over two dozen conferences attended by thousands of technology professionals, made several thousand connections, and built open source tools that are now used by many communities.</p>
+        <h2 class="legible space-two-bottom text-center">The Team</h2>
+        <p class="regular">HasGeek Team: Anish TP, Hari C M, Jyothsna Vinod, Karthik Balakrishnan, Kiran Jonnalagadda, Shreyas Satish, Sindhu S, Vaman Kamath, Vidya Ramakrishnan and Zainab Bawa.</p>
+        <p class="regular">A special thanks to all the volunteers. Adit Lal, Aditya Kathpalia, Dheeraj, Karthik Yelchuru, Kaushik K R, Konarak, Lanitri, Mahesh RB, Muhammed Rajeef M K, Trouble and the entire team of Geekskool: Arun S, Ishita Sinha, Karthik Gunasekaran, Niti Sree, Pradyumna Chakicherla, Priti Pandurangan, Rakesh Raushan, Sai Charan, Sanket, Santosh Rajan, Unnikrishnan and Varun Sharma.</p>
+      </div>
+    </div>
+    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 space-one text-center">
+      <p class="gray"><a href="http://www.droidcon.com/">droidcon</a> is a registered trademark by <a href="http://www.mobileseasons.com/" target="_blank">Mobile Seasons GmbH</a>.</p>
+      <p class="gray">Copyright &copy; 2010–15. All rights reserved.</p>
+      <p><a href="mailto:info@hasgeek.com?subject=Hello Droidcon">info@hasgeek.com</a> /
+      <a href="tel:+918067684422" class="link-silent">+91-80-67684422</a></p>
+      <div class="legible space-one centered">
+          <ul class="list-plain">
+            <li class="inline-block gap-1q"><a href="https://twitter.com/droidconIN" target="_blank" class="link-silent  white"><i class="icon-twitter-sign"></i></a></li>
+            <li class="inline-block gap-1q"><a href="https://www.facebook.com/droidcon.in" target="_blank" class="link-silent white"><i class="icon-facebook-sign"></i></a></li>
+            <li class="inline-block gap-1q"><a href="https://www.youtube.com/user/hasgeek" target="_blank" class="link-silent white"><i class="icon-youtube-sign"></i></a></li>
+            <li class="inline-block gap-1q"><a href="https://www.flickr.com/photos/hasgeek/sets/" target="_blank" class="link-silent white"><i class="icon-flickr"></i></a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</div><!-- #page -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../_themes/droidcon2015/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.6.3/leaflet.js"></script>
+  <script src="../_themes/droidcon2015/js/vendor/bootstrap.min.js.packed.js"></script>
+  <script src="../_themes/droidcon2015/js/maps.js.packed.js"></script>
+  <script src="../_themes/droidcon2015/js/main.js.packed.js"></script>
+  
+
+
+<script>
+if (location.hostname == 'droidcon.in') {
+  // Google Analytics
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-19123154-16', 'auto');
+  ga('send', 'pageview');
+
+  /**
+  * Function that tracks a click on an outbound link in Google Analytics.
+  * This function takes a valid URL string as an argument, and uses that URL string
+  * as the event label.
+  */
+  var trackOutboundLink = function (url) {
+    ga('send', 'event', 'ticket-button', 'click', url);
+  }
+  
+  $(function () {
+    $('.ticket-button').on('click contextmenu', function () {
+      trackOutboundLink($(this).attr('href'));
+    });
+  });
+}
+</script>
+<script type="text/javascript">
+  if (Modernizr.mq('only screen and (min-width: 768px)') == true) {
+    $(".popover-right").popover({ placement: 'left', animation: true, trigger: 'hover'});
+    $(".popover-left").popover({ placement: 'right', animation: true, trigger: 'hover'});
+  } 
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+</script>
+
+
+<!-- Prompt IE 6 users to install Chrome Frame. -->
+<!-- chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7 ]>
+  <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+  <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+<![endif]-->
+
+</body>
+</html>
